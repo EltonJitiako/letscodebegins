@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FaCodepen, FaFacebook, FaGithub, FaFreeCodeCamp, FaInstagram, FaLinkedin, FaWhatsapp, FaEnvelope, FaPhoneSquare, FaTelegram, FaLinux, FaUniversity } from "react-icons/fa";
 import './App.css';
-import waves from './movies/waves.mp4';
+import waves from './movies/nikita.mp4';
 
 
 class App extends Component {
