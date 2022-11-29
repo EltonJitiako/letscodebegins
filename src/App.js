@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+//Font Awsome
 import { FaCodepen, FaFacebook, FaGithub, FaFreeCodeCamp, FaInstagram, FaLinkedin, FaWhatsapp, FaEnvelope, FaPhoneSquare, FaTelegram, FaLinux, FaUniversity } from "react-icons/fa";
 import './App.css';
+//Movie
 import waves from './movies/nikita.mp4';
 
 
@@ -11,47 +13,54 @@ class App extends Component {
       <div className="overlay"></div>
         <video src={waves} autoPlay loop muted />
         <div className="content">
-            <h1>ELTON L. JITIAKO</h1>
-            <div id="icons">
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <FaGithub />
+            <div className='row'>
+            <div className={"col-lg-6 col-md-6 col-sm-12 col-xs-12"}>
+                <h1 className='me'>ELTON</h1>
               </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <FaCodepen /> 
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <FaFreeCodeCamp /> 
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <FaUniversity /> 
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <FaLinux />
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <FaFacebook /> 
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <FaInstagram /> 
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <FaLinkedin />
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <FaWhatsapp /> 
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <FaTelegram /> 
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <FaEnvelope /> 
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <FaPhoneSquare /> 
+              <div className={"col-lg-6 col-md-6 col-sm-12 col-xs-12"}>
+                <h1 className='me'>JITIAKO</h1>
               </div>
             </div>
+            <div className="row">
+              <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4"}>
+                <FaGithub />
+              </div>
+              <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4"}>
+                <FaCodepen /> 
+              </div>
+              <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4"}>
+                <FaFreeCodeCamp /> 
+              </div>
+              <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4"}>
+                <FaUniversity /> 
+              </div>
+              <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4"}>
+                <FaLinux />
+              </div>
+              <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4"}>
+                <FaFacebook /> 
+              </div>
+              <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4"}>
+                <FaInstagram /> 
+              </div>
+              <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4"}>
+                <FaLinkedin />
+              </div>
+              <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4"}>
+                <FaWhatsapp /> 
+              </div>
+              <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4"}>
+                <FaTelegram /> 
+              </div>
+              <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4"}>
+              </div>
+              <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4"}>
+                <FaEnvelope /> 
+              </div>
+              <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4"}>
+                <FaPhoneSquare /> 
+              </div>
+              </div>
         </div>
     </div>
   );
