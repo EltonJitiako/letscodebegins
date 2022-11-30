@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { FaCodepen, FaFacebook, FaGithub, FaFreeCodeCamp, FaInstagram, FaLinkedin, FaWhatsapp, FaEnvelope, FaPhoneSquare, FaTelegram, FaLinux, FaUniversity } from "react-icons/fa";
 import './App.css';
 //Movie
-import waves from './movies/nikita3.mp4';
+import waves from './movies/nikita2.mp4';
 
 
 class App extends Component {
@@ -13,16 +13,8 @@ class App extends Component {
       <div className="overlay"></div>
         <video src={waves} autoPlay loop muted />
         <div className="content">
-            <h1 className='me'>ELTON JITIAKO</h1>
-            {/*<!--<div className='row'>
-            <div className={"col-lg-6 col-md-6 col-sm-12 col-xs-12"}>
-                <h1 className='me'>ELTON</h1>
-              </div>
-              <div className={"col-lg-6 col-md-6 col-sm-12 col-xs-12"}>
-                <h1 className='me'>JITIAKO</h1>
-              </div>
-            </div>*/}
             <div className="row">
+              <h1 className='me'>ELTON JITIAKO</h1>
               <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
                 <FaGithub />
               </div>
