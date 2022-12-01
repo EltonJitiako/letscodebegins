@@ -14,7 +14,7 @@ class App extends Component {
         <video src={waves} autoPlay loop muted />
         <div className="content">
             <div className="row">
-              <h1 className='me'>ELTON JITIAKO</h1>
+              <h1 className='me'>Elton Jitiako</h1>
               <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
                 <a id='github' href={'https://github.com/EltonJitiako'} target='_blank' rel='noreferrer'><FaGithub /></a>
               </div>
