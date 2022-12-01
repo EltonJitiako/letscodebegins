@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/letscodebegins/static/css/main.f4474c9c.css",
-    "main.js": "/letscodebegins/static/js/main.7f66a534.js",
+    "main.css": "/letscodebegins/static/css/main.affe1782.css",
+    "main.js": "/letscodebegins/static/js/main.7f784734.js",
     "static/js/787.c3bf25da.chunk.js": "/letscodebegins/static/js/787.c3bf25da.chunk.js",
-    "static/media/1056.jpg": "/letscodebegins/static/media/1056.7bca3d7ca88a40adcaa1.jpg",
+    "static/media/nikita2.mp4": "/letscodebegins/static/media/nikita2.b73ea5776a605c6ed93d.mp4",
     "index.html": "/letscodebegins/index.html",
-    "main.f4474c9c.css.map": "/letscodebegins/static/css/main.f4474c9c.css.map",
-    "main.7f66a534.js.map": "/letscodebegins/static/js/main.7f66a534.js.map",
+    "main.affe1782.css.map": "/letscodebegins/static/css/main.affe1782.css.map",
+    "main.7f784734.js.map": "/letscodebegins/static/js/main.7f784734.js.map",
     "787.c3bf25da.chunk.js.map": "/letscodebegins/static/js/787.c3bf25da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4474c9c.css",
-    "static/js/main.7f66a534.js"
+    "static/css/main.affe1782.css",
+    "static/js/main.7f784734.js"
   ]
 }
