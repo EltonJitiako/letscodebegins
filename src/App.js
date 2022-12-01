@@ -50,7 +50,6 @@ class App extends Component {
               </div>
               <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
                 <a id='phone' href="tel:+34611066740"><FaPhoneSquare /></a>
-                
               </div>
               </div>
         </div>
