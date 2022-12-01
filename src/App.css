@@ -10,10 +10,17 @@
   border: 5px solid transparent;
 }
 
-/* Simple Responsive Framework. */
 .row {
   width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
+a {
+  color: white;
+ }
 
 video {
   position: fixed;
@@ -32,27 +39,17 @@ video {
   background: rgba(0, 0, 0, 0.5);
   overflow: auto;
   border: 2px solid white;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: white;
 }
 
-
 /********** Large devices only **********/
 @media (min-width: 992px) {
-
   .content {
     font-size: 4em;
   }
   
-  
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -94,18 +91,12 @@ video {
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
-
   .content {
     font-size: 4em;
   }
-  
  
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .col-md-1 {
     width: 8.33%;
@@ -147,17 +138,12 @@ video {
 
 /********** Small devices only **********/
 @media (min-width: 576px) and (max-width: 767px) {
- 
   .content {
     font-size: 4em;
   }
   
-  
   .col-sm-1, .col-md-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .col-sm-1 {
     width: 8.33%;
@@ -200,18 +186,12 @@ video {
 
 /********** X-Small devices only **********/
 @media (min-width: 340px) and (max-width: 575px) {
- 
   .content {
     font-size: 3.5em;
   }
   
-  
-  
   .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
     float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .col-xs-1 {
     width: 8.33%;
@@ -253,18 +233,12 @@ video {
 
 /********** X-Small devices only **********/
 @media (max-width: 339px) {
- 
   .content {
     font-size: 2.5em;
   }
   
-  
-  
   .col-xxs-1, .col-xxs-2, .col-xxs-3, .col-xxs-4, .col-xxs-5, .col-xxs-6, .col-xxs-7, .col-xxs-8, .col-xxs-9, .col-xxs-10, .col-xxs-11, .col-xs-12 {
     float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .col-xxs-1 {
     width: 8.33%;
