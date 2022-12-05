@@ -4,12 +4,13 @@ import React, { Component } from 'react';
 import { FaCodepen, FaFacebook, FaGithub, FaFreeCodeCamp, FaInstagram, FaLinkedin, FaWhatsapp, FaEnvelope, FaPhoneSquare, FaTelegram, FaLinux, FaUniversity } from "react-icons/fa";
 import './App.css';
 //Movie
-import waves from './movies/nikita2.mp4';
+import waves from './movies/waves.mp4';
 
 class App extends Component {
   render() {
   return (
     <div>
+      <script type="text/javascript" src="wz_tooltip.js"></script>
       <div className="overlay"></div>
         <video src={waves} autoPlay loop muted />
         <div className="content">
