@@ -21,10 +21,10 @@ const Layout = () => {
               <a id='codepen' href={'https://codepen.io/EltonJitiako'} target='_blank' rel='noreferrer'><FaCodepen /><p id="textDescription">Codepen</p></a>
             </div>
             <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
-              <Link id='frontend' to={'/frontend'} target='_parent' rel='noreferrer'><FaDesktop /><p id="textDescription">Frontend</p></Link>
+              <Link id='frontend' to={'/letscodebegins/frontend'} target='_parent' rel='noreferrer'><FaDesktop /><p id="textDescription">Frontend</p></Link>
             </div>
             <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
-              <Link id='backend' to={'/backend'} target='_parent' rel='noreferrer'><FaServer /><p id="textDescription">Backend</p></Link>
+              <Link id='backend' to={'/letscodebegins/backend'} target='_parent' rel='noreferrer'><FaServer /><p id="textDescription">Backend</p></Link>
             </div>
             <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
               <a id='LPI' href={'https://cs.lpi.org/caf/Xamman/certification/verify/LPI000532255/jkm8wplmlt'} target='_blank' rel='noreferrer'><FaLinux /><p id="textDescription">Linux</p></a>

@@ -16,8 +16,8 @@ class App extends Component {
           <Link to="/letscodebegins"></Link>
           <Switch>
             <Route path="/letscodebegins" exact><Layout /></Route>
-            <Route path="/backend"><Backend /></Route>
-            <Route path="/frontend"><Frontend /></Route>
+            <Route path="/letscodebegins/backend"><Backend /></Route>
+            <Route path="/letscodebegins/frontend"><Frontend /></Route>
           </Switch>
         </div>
       </BrowserRouter>
