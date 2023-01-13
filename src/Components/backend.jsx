@@ -1,5 +1,6 @@
 import React from "react";
-import { FaArrowAltCircleLeft, FaJava, FaLeaf, FaAward, FaGitAlt } from "react-icons/fa";
+import { FaArrowAltCircleLeft, FaJava, FaAward, FaGitAlt } from "react-icons/fa";
+import { SiSpring } from "react-icons/si";
 import '../App.css';
 import waves from '../movies/nikita2.mp4';
 import { Link } from "react-router-dom";
@@ -43,7 +44,7 @@ const Backend = () => {
               <hr />
               <a id='openBootcamp' className="container1" href={'https://community.open-bootcamp.com/user/eltonjitiako/certificaciones/a2ab0b06-01e4-4d40-8e13-2dd36c3cf622'} target='_blank' rel='noreferrer'>
                 <div className="container2">
-                  <FaLeaf />
+                  <SiSpring />
                 </div>
                 <div className="container3">
                   <h3>Spring</h3>
