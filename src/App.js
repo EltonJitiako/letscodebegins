@@ -13,7 +13,6 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div>
-          <Link to="/letscodebegins"></Link>
           <Switch>
             <Route path="/letscodebegins" exact><Layout /></Route>
             <Route path="/letscodebegins/backend"><Backend /></Route>
