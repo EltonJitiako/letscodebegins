@@ -13,9 +13,9 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div>
-          <Link to="/"></Link>
+          <Link to="/letscodebegins"></Link>
           <Switch>
-            <Route path="/" exact><Layout /></Route>
+            <Route path="/letscodebegins" exact><Layout /></Route>
             <Route path="/backend"><Backend /></Route>
             <Route path="/frontend"><Frontend /></Route>
           </Switch>
