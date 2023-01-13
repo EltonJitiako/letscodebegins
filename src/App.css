@@ -20,10 +20,15 @@
 
 a {
   color: white;
+  text-decoration: none;
  }
 
 a:hover { 
   color: black;
+}
+
+#textDescription {
+  font-size: x-small;
 }
 
 video {
