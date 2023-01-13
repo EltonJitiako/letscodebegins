@@ -14,9 +14,9 @@ class App extends Component {
       <HashRouter>
         <div>
           <Switch>
-            <Route path="/letscodebegins" exact><Layout /></Route>
-            <Route path="/letscodebegins/backend"><Backend /></Route>
-            <Route path="/letscodebegins/frontend"><Frontend /></Route>
+            <Route exact path="/" component={Layout} />
+            <Route path="/backend" component={Backend} />
+            <Route path="/frontend" component={Frontend} />
           </Switch>
         </div>
       </HashRouter>
