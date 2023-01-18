@@ -1,6 +1,6 @@
 import React from "react";
 //Font Awesome site: https://react-icons.github.io/react-icons/icons?name=fa
-import { FaCodepen, FaFacebook, FaGithub, FaDesktop, FaInstagram, FaLinkedin, FaWhatsapp, FaEnvelope, FaPhoneSquare, FaTelegram, FaLinux, FaServer } from "react-icons/fa";
+import { FaDatabase, FaFacebook, FaRegFileCode, FaDesktop, FaInstagram, FaLinkedin, FaWhatsapp, FaEnvelope, FaPhoneSquare, FaTelegram, FaLinux, FaServer } from "react-icons/fa";
 import '../App.css';
 import waves from '../movies/nikita2.mp4';
 //Router
@@ -15,10 +15,10 @@ const Layout = () => {
           <div className="row">
             <h1 className='me'>Elton Jitiako</h1>
             <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
-              <a id='github' href={'https://github.com/EltonJitiako'} target='_blank' rel='noreferrer'><FaGithub /><p id="textDescription">GitHub</p></a>
+              <Link id='portifolio' to={'/portifolio'} rel='noreferrer'><FaRegFileCode /><p id="textDescription">Portifolio</p></Link>
             </div>
             <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
-              <a id='codepen' href={'https://codepen.io/EltonJitiako'} target='_blank' rel='noreferrer'><FaCodepen /><p id="textDescription">Codepen</p></a>
+              <a id='crud' href={'https://crud-elton.vercel.app/'} target='_blank' rel='noreferrer'><FaDatabase /><p id="textDescription">CRUD</p></a>
             </div>
             <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
               <Link id='frontend' to={'/frontend'} rel='noreferrer'><FaDesktop /><p id="textDescription">Frontend</p></Link>

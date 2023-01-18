@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-.border1{
-  border: 5px solid transparent;
-}
-
 .row {
   width: 100%;
   position: absolute;
@@ -67,6 +63,10 @@ video {
   font-size: 1.5em;
 }
 
+.border1{
+  border: 5px solid transparent;
+}
+
 .border2 {
   border: 20px solid transparent;
   text-align: center;
@@ -86,12 +86,9 @@ video {
   border: 20px solid transparent;
 }
 
-
-
-
 /********** Large devices only **********/
 @media (min-width: 992px) {
-  .content {
+  .content, #github, #codepen {
     font-size: 4em;
   }
 
@@ -151,7 +148,7 @@ video {
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .content {
+  .content, #github, #codepen {
     font-size: 3.5em;
   }
 
@@ -211,7 +208,7 @@ video {
 
 /********** Small devices only **********/
 @media (min-width: 576px) and (max-width: 767px) {
-  .content {
+  .content, #github, #codepen {
     font-size: 3em;
   }
 
@@ -263,7 +260,7 @@ video {
 
 /********** X-Small devices only **********/
 @media (min-width: 340px) and (max-width: 575px) {
-  .content {
+  .content, #github, #codepen {
     font-size: 2.5em;
   }
 
@@ -314,7 +311,7 @@ video {
 
 /********** XX-Small devices only **********/
 @media (max-width: 339px) {
-  .content {
+  .content, #github, #codepen {
     font-size: 2em;
   }
 
