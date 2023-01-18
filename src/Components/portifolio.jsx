@@ -19,11 +19,11 @@ const Portifolio = () => {
           </div>
           <div className="border3">
             <div className="border4">
-                <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
-                    <a id='github' href={'https://github.com/EltonJitiako'} target='_blank' rel='noreferrer' style={{display: 'flex', flexDirection: 'column', alignItems: 'center',}}><FaGithub/><p id="textDescription">GitHub</p></a>
+                <div className={"col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-6 border1"}>
+                    <a id='github' href={'https://github.com/EltonJitiako'} target='_blank' rel='noreferrer' style={{display: 'flex', flexDirection: 'column', alignItems: 'center',}}><FaGithub/><p id="textDescription" style={{border: '20px solid transparent'}}>GitHub</p></a>
                 </div>
-                <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
-                    <a id='codepen' href={'https://codepen.io/EltonJitiako'} target='_blank' rel='noreferrer' style={{display: 'flex', flexDirection: 'column', alignItems: 'center',}}><FaCodepen/><p id="textDescription">Codepen</p></a>
+                <div className={"col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-6 border1"}>
+                    <a id='codepen' href={'https://codepen.io/EltonJitiako'} target='_blank' rel='noreferrer' style={{display: 'flex', flexDirection: 'column', alignItems: 'center',}}><FaCodepen/><p id="textDescription" style={{border: '20px solid transparent'}}>Codepen</p></a>
                 </div>
             </div>
           </div> 
