@@ -1,5 +1,5 @@
 import React from "react";
-import { FaArrowAltCircleLeft, FaFreeCodeCamp, FaUniversity } from "react-icons/fa";
+import { FaArrowAltCircleLeft, FaFreeCodeCamp, FaUniversity, FaMicrosoft } from "react-icons/fa";
 import '../App.css';
 import waves from '../movies/nikita2.mp4';
 import { Link } from "react-router-dom";
@@ -18,6 +18,17 @@ const Frontend = () => {
             </div>
             <div className="border3">
               <div className="border4">
+                <a id='microsoft' className="container1" href={'https://learn.microsoft.com/en-us/training/achievements/learn.languages.csharp-first-steps.trophy?username=EltonLuizJitiako-8407'} target='_blank' rel='noreferrer'>
+                  <div className="container2">
+                    <FaMicrosoft />
+                  </div>
+                  <div className="container3">
+                    <h3>C# First Steps</h3>
+                    <h4>Microsoft</h4>
+                    <h4>2023-2023</h4>
+                  </div>
+                </a>
+                <hr />
                 <a id='freeCodeCamp' className="container1" href={'https://www.freecodecamp.org/certification/fcc966dd265-203f-4783-b503-3b0774ad1e3a/javascript-algorithms-and-data-structures'} target='_blank' rel='noreferrer'>
                   <div className="container2">
                     <FaFreeCodeCamp />
