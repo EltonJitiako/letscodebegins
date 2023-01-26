@@ -16,11 +16,11 @@ const Mobile = () => {
           </div>
           <div className="row2">
             <div className="border2">
-              <h1 className='pages'>Frontend certificates</h1>
+              <h1 className='pages'>Mobile certificates</h1>
             </div>
             <div className="border3">
               <div className="border4">
-                <a id='dotnet' className="container1" href={'https://example.org/'} target='_blank' rel='noreferrer'>
+                <a id='dotnet' className="container1" href={'www'} target='_blank' rel='noreferrer'>
                   <div className="container2">
                     <SiDotnet />
                   </div>
