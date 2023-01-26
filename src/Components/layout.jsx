@@ -1,6 +1,6 @@
 import React from "react";
 //Font Awesome site: https://react-icons.github.io/react-icons/icons?name=fa
-import { FaDatabase, FaFacebook, FaRegFileCode, FaDesktop, FaInstagram, FaLinkedin, FaWhatsapp, FaEnvelope, FaPhoneSquare, FaTelegram, FaLinux, FaServer } from "react-icons/fa";
+import { FaMobileAlt, FaFacebook, FaRegFileCode, FaDesktop, FaInstagram, FaLinkedin, FaWhatsapp, FaEnvelope, FaPhoneSquare, FaTelegram, FaLinux, FaServer } from "react-icons/fa";
 import '../App.css';
 import waves from '../movies/nikita2.mp4';
 //Router
@@ -18,13 +18,13 @@ const Layout = () => {
               <Link id='portifolio' to={'/portifolio'} rel='noreferrer'><FaRegFileCode /><p id="textDescription">Portifolio</p></Link>
             </div>
             <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
-              <a id='crud' href={'https://crud-elton.vercel.app/'} target='_blank' rel='noreferrer'><FaDatabase /><p id="textDescription">CRUD</p></a>
-            </div>
-            <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
               <Link id='frontend' to={'/frontend'} rel='noreferrer'><FaDesktop /><p id="textDescription">Frontend</p></Link>
             </div>
             <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
               <Link id='backend' to={'/backend'} rel='noreferrer'><FaServer /><p id="textDescription">Backend</p></Link>
+            </div>
+            <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
+              <Link id='mobile' to={'/mobile'} rel='noreferrer'><FaMobileAlt /><p id="textDescription">Mobile</p></Link>
             </div>
             <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
               <a id='LPI' href={'https://cs.lpi.org/caf/Xamman/certification/verify/LPI000532255/jkm8wplmlt'} target='_blank' rel='noreferrer'><FaLinux /><p id="textDescription">Linux</p></a>
