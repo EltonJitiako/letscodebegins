@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/letscodebegins/static/css/main.7d961138.css",
-    "main.js": "/letscodebegins/static/js/main.005b4497.js",
+    "main.css": "/letscodebegins/static/css/main.1ce10cd8.css",
+    "main.js": "/letscodebegins/static/js/main.295b4201.js",
     "static/js/787.c3bf25da.chunk.js": "/letscodebegins/static/js/787.c3bf25da.chunk.js",
     "static/media/nikita2.mp4": "/letscodebegins/static/media/nikita2.b73ea5776a605c6ed93d.mp4",
     "index.html": "/letscodebegins/index.html",
-    "main.7d961138.css.map": "/letscodebegins/static/css/main.7d961138.css.map",
-    "main.005b4497.js.map": "/letscodebegins/static/js/main.005b4497.js.map",
+    "main.1ce10cd8.css.map": "/letscodebegins/static/css/main.1ce10cd8.css.map",
+    "main.295b4201.js.map": "/letscodebegins/static/js/main.295b4201.js.map",
     "787.c3bf25da.chunk.js.map": "/letscodebegins/static/js/787.c3bf25da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d961138.css",
-    "static/js/main.005b4497.js"
+    "static/css/main.1ce10cd8.css",
+    "static/js/main.295b4201.js"
   ]
 }
