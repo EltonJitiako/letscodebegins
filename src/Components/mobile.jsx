@@ -26,7 +26,7 @@ const Mobile = () => {
                   </div>
                   <div className="container3">
                     <h3>.NET MAUI</h3>
-                    <h4>On progress....</h4>
+                    <h4>In progress....</h4>
                     <h4>XXX</h4>
                   </div>
                 </a>
