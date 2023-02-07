@@ -1,5 +1,6 @@
 import React from "react";
 import { FaArrowAltCircleLeft, FaGithub, FaCodepen, FaDatabase, FaGitlab } from "react-icons/fa";
+import { GrAndroid } from "react-icons/gr";
 import '../App.css';
 import waves from '../movies/nikita2.mp4';
 import { Link } from "react-router-dom";
@@ -33,7 +34,7 @@ const Portifolio = () => {
                     <a id='crudweb' href={'https://crud-elton.vercel.app/'} target='_blank' rel='noreferrer' style={{display: 'flex', flexDirection: 'column', alignItems: 'center',}}><FaDatabase /><p id="textDescription" style={{border: '20px solid transparent'}}>CRUD(Web)</p></a>
                 </div>
                 <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
-                    <a id='crudmobile' href={'https://www.apkonline.net/filemanager.php?username=EltonJitiako'} target='_blank' rel='noreferrer' style={{display: 'flex', flexDirection: 'column', alignItems: 'center',}}><FaDatabase /><p id="textDescription" style={{border: '20px solid transparent'}}>CRUD(Mobile)</p></a>
+                    <a id='crudmobile' href={'https://www.apkonline.net/filemanager.php?username=EltonJitiako'} target='_blank' rel='noreferrer' style={{display: 'flex', flexDirection: 'column', alignItems: 'center',}}><GrAndroid /><p id="textDescription" style={{border: '20px solid transparent'}}>CRUD(Mobile)</p></a>
                 </div>
               </div>
             </div>
