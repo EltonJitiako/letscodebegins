@@ -20,7 +20,7 @@ const Backend = () => {
           </div>
           <div className="border3">
             <div className="border4">
-              <a id='openBootcamp' className="container1" href={'https://community.open-bootcamp.com/user/eltonjitiako/certificaciones/64810b40-cd34-49af-a501-a92d4dae77b9'} target='_blank' rel='noreferrer'>
+              <Link id='openBootcamp' className="container1" to={'/backendjavaa'} target='_blank'>
                 <div className="container2">
                   <FaJava/>
                 </div>
@@ -29,9 +29,9 @@ const Backend = () => {
                   <h4>Open Bootcamp</h4>
                   <h4>2023-2023</h4>
                 </div>
-              </a>
+              </Link>
               <hr />
-              <a id='openBootcamp' className="container1" href={'https://community.open-bootcamp.com/user/eltonjitiako/certificaciones/c6364cd1-8355-4f01-b508-16b0aa2e06dc'} target='_blank' rel='noreferrer'>
+              <Link id='openBootcamp' className="container1" to={'/backendjavab'} target='_blank'>
                 <div className="container2">
                   <FaJava />
                 </div>
@@ -40,9 +40,9 @@ const Backend = () => {
                   <h4>Open Bootcamp</h4>
                   <h4>2022-2022</h4>
                 </div>
-              </a>
+              </Link>
               <hr />
-              <a id='openBootcamp' className="container1" href={'https://community.open-bootcamp.com/user/eltonjitiako/certificaciones/a2ab0b06-01e4-4d40-8e13-2dd36c3cf622'} target='_blank' rel='noreferrer'>
+              <Link id='openBootcamp' className="container1" to={'/backendspring'} target='_blank'>
                 <div className="container2">
                   <SiSpring />
                 </div>
@@ -51,9 +51,9 @@ const Backend = () => {
                   <h4>Open Bootcamp</h4>
                   <h4>2022-2023</h4>
                 </div>
-              </a>
+              </Link>
               <hr />
-              <a id='openBootcamp' className="container1" href={'https://community.open-bootcamp.com/user/eltonjitiako/certificaciones/51adeae5-0452-4a30-bc40-733b48a1ff8d'} target='_blank' rel='noreferrer'>
+              <Link id='openBootcamp' className="container1" to={'/backendgit'} target='_blank'>
                 <div className="container2">
                   <FaGitAlt />
                 </div>
@@ -62,9 +62,9 @@ const Backend = () => {
                   <h4>Open Bootcamp</h4>
                   <h4>2022-2022</h4>
                 </div>
-              </a>
+              </Link>
               <hr />
-              <a id='openBootcamp' className="container1" href={'https://community.open-bootcamp.com/user/eltonjitiako/certificaciones/fa7248f3-ef1a-4ddf-a480-f4ec50d404e3'} target='_blank' rel='noreferrer'>
+              <Link id='openBootcamp' className="container1" to={'/backendintro'} target='_blank'>
                 <div className="container2">
                   <FaAward />
                 </div>
@@ -73,9 +73,9 @@ const Backend = () => {
                   <h4>Open Bootcamp</h4>
                   <h4>2022-2022</h4>
                 </div>
-              </a>
+              </Link>
               <hr />
-              <a id='openBootcamp' className="container1" href={'https://community.open-bootcamp.com/user/eltonjitiako/certificaciones/a882226c-094f-4ea9-a08e-0bbfaf5aa933'} target='_blank' rel='noreferrer'>
+              <Link id='openBootcamp' className="container1" to={'/backendconcep'} target='_blank'>
                 <div className="container2">
                   <FaAward />
                 </div>
@@ -84,7 +84,7 @@ const Backend = () => {
                   <h4>Open Bootcamp</h4>
                   <h4>2022-2022</h4>
                 </div>
-              </a>
+              </Link>
             </div>
           </div> 
         </div>
