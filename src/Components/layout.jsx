@@ -1,6 +1,6 @@
 import React from "react";
 //Font Awesome site: https://react-icons.github.io/react-icons/icons?name=fa
-import { FaMobileAlt, FaFacebook, FaRegFileCode, FaDesktop, FaInstagram, FaLinkedin, FaWhatsapp, FaEnvelope, FaPhoneSquare, FaTelegram, FaLinux, FaServer } from "react-icons/fa";
+import { FaUserGraduate, FaFacebook, FaRegFileCode, FaDesktop, FaInstagram, FaLinkedin, FaWhatsapp, FaEnvelope, FaPhoneSquare, FaTelegram, FaLinux, FaServer } from "react-icons/fa";
 import '../App.css';
 import waves from '../movies/nikita2.mp4';
 //Router
@@ -24,7 +24,7 @@ const Layout = () => {
               <Link id='backend' to={'/backend'} rel='noreferrer'><FaServer /><p id="textDescription">Backend</p></Link>
             </div>
             <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
-              <Link id='mobile' to={'/mobile'} rel='noreferrer'><FaMobileAlt /><p id="textDescription">Mobile</p></Link>
+              <Link id='master' to={'/master'} rel='noreferrer'><FaUserGraduate /><p id="textDescription">Master</p></Link>
             </div>
             <div className={"col-lg-1 col-md-2 col-sm-3 col-xs-4 col-xxs-4 border1"}>
               <a id='LPI' href={'https://cs.lpi.org/caf/Xamman/certification/verify/LPI000532255/jkm8wplmlt'} target='_blank' rel='noreferrer'><FaLinux /><p id="textDescription">Linux</p></a>

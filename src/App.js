@@ -7,7 +7,7 @@ import Frontend from './Components/frontend';
 import Backend from './Components/backend';
 import Layout from './Components/layout';
 import Portifolio from './Components/portifolio';
-import Mobile from './Components/mobile';
+import Master from './Components/master';
 import BackendGit from './Components/backendgit';
 import BackendIntro from './Components/backendintro.jsx';
 import BackendConcep from './Components/backendconcep.jsx';
@@ -33,7 +33,7 @@ class App extends Component {
             <Route path="/backendintro" component={BackendIntro} />
             <Route path="/frontend" component={Frontend} />
             <Route path="/portifolio" component={Portifolio} />
-            <Route path="/mobile" component={Mobile} />
+            <Route path="/master" component={Master} />
           </Switch>
         </div>
       </HashRouter>

@@ -1,5 +1,6 @@
 import React from "react";
 import { FaArrowAltCircleLeft, FaFreeCodeCamp, FaUniversity } from "react-icons/fa";
+import { TbCSharp } from "react-icons/tb";
 import '../App.css';
 import waves from '../movies/nikita2.mp4';
 import { Link } from "react-router-dom";
@@ -48,6 +49,17 @@ const Frontend = () => {
                     <h3>Front end Development Libraries</h3>
                     <h4>Johns Hopkins University</h4>
                     <h4>2022-2022</h4>
+                  </div>
+                </a>
+                <hr />
+                <a id='microsoft' className="container1" href={'https://learn.microsoft.com/en-us/training/achievements/learn.languages.csharp-first-steps.trophy?username=EltonLuizJitiako-8407'} target='_blank' rel='noreferrer'>
+                  <div className="container2">
+                    <TbCSharp />
+                  </div>
+                  <div className="container3">
+                    <h3>C#</h3>
+                    <h4>Microsoft</h4>
+                    <h4>2023-2023</h4>
                   </div>
                 </a>
               </div>
