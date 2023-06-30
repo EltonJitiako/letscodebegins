@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/letscodebegins/static/css/main.1ce10cd8.css",
-    "main.js": "/letscodebegins/static/js/main.85ffb323.js",
+    "main.js": "/letscodebegins/static/js/main.f2570e66.js",
     "static/js/787.c3bf25da.chunk.js": "/letscodebegins/static/js/787.c3bf25da.chunk.js",
     "static/media/nikita2.mp4": "/letscodebegins/static/media/nikita2.b73ea5776a605c6ed93d.mp4",
     "static/media/concep.png": "/letscodebegins/static/media/concep.05842e048c7363ccbdab.png",
@@ -12,11 +12,11 @@
     "static/media/git.png": "/letscodebegins/static/media/git.53130889eaf2c6b4119f.png",
     "index.html": "/letscodebegins/index.html",
     "main.1ce10cd8.css.map": "/letscodebegins/static/css/main.1ce10cd8.css.map",
-    "main.85ffb323.js.map": "/letscodebegins/static/js/main.85ffb323.js.map",
+    "main.f2570e66.js.map": "/letscodebegins/static/js/main.f2570e66.js.map",
     "787.c3bf25da.chunk.js.map": "/letscodebegins/static/js/787.c3bf25da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ce10cd8.css",
-    "static/js/main.85ffb323.js"
+    "static/js/main.f2570e66.js"
   ]
 }
