@@ -18,7 +18,7 @@ const Mobile = () => {
             </div>
             <div className="border3">
               <div className="border4">
-                <a id='NETT' className="container1" href={'/'} target='_blank' rel='noreferrer'>
+                <a id='NETT' className="container1" href={'https://nettdigitalschool.com/master-en-desarrollo-web-avanzado/'} target='_blank' rel='noreferrer'>
                   <div className="container2">
                     <FaUniversity />
                   </div>
