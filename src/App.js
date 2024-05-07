@@ -14,6 +14,8 @@ import BackendConcep from './Components/backendconcep.jsx';
 import BackendSpring from './Components/backendspring';
 import BackendJavaa from './Components/backendjavaa';
 import BackendJavab from './Components/backendjavab.jsx';
+import University from './Components/university.jsx';
+import Unip from './Components/unip.jsx';
 
 
 
@@ -34,6 +36,8 @@ class App extends Component {
             <Route path="/frontend" component={Frontend} />
             <Route path="/portifolio" component={Portifolio} />
             <Route path="/master" component={Master} />
+            <Route path="/university" component={University} />
+            <Route path="/unip" component={Unip} />
           </Switch>
         </div>
       </HashRouter>

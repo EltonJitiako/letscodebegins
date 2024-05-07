@@ -25,7 +25,7 @@ const Mobile = () => {
                   <div className="container3">
                     <h3>Master DWA</h3>
                     <h4>NETT Digital School</h4>
-                    <h4>2023-In progress....</h4>
+                    <h4>2023-2024</h4>
                   </div>
                 </a>
               </div>
