@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/letscodebegins/static/css/main.1ce10cd8.css",
-    "main.js": "/letscodebegins/static/js/main.c384e420.js",
+    "main.js": "/letscodebegins/static/js/main.a3c65d6f.js",
     "static/js/787.c3bf25da.chunk.js": "/letscodebegins/static/js/787.c3bf25da.chunk.js",
     "static/media/unip1.png": "/letscodebegins/static/media/unip1.2364495f9642df798287.png",
     "static/media/nikita2.mp4": "/letscodebegins/static/media/nikita2.b73ea5776a605c6ed93d.mp4",
@@ -16,11 +16,11 @@
     "static/media/pngwing.com (1).png": "/letscodebegins/static/media/pngwing.com (1).3f8c9d2153b61a25312e.png",
     "index.html": "/letscodebegins/index.html",
     "main.1ce10cd8.css.map": "/letscodebegins/static/css/main.1ce10cd8.css.map",
-    "main.c384e420.js.map": "/letscodebegins/static/js/main.c384e420.js.map",
+    "main.a3c65d6f.js.map": "/letscodebegins/static/js/main.a3c65d6f.js.map",
     "787.c3bf25da.chunk.js.map": "/letscodebegins/static/js/787.c3bf25da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ce10cd8.css",
-    "static/js/main.c384e420.js"
+    "static/js/main.a3c65d6f.js"
   ]
 }
