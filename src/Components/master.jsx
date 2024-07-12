@@ -18,7 +18,7 @@ const Mobile = () => {
             </div>
             <div className="border3">
               <div className="border4">
-                <a id='NETT' className="container1" href={'https://nettdigitalschool.com/master-en-desarrollo-web-avanzado/'} target='_blank' rel='noreferrer'>
+                <Link id='masternett' className="container1" to={'/masternett'} target='_blank'>
                   <div className="container2">
                     <FaUniversity />
                   </div>
@@ -27,7 +27,7 @@ const Mobile = () => {
                     <h4>NETT Digital School</h4>
                     <h4>2023-2024</h4>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

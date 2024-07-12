@@ -16,6 +16,7 @@ import BackendJavaa from './Components/backendjavaa';
 import BackendJavab from './Components/backendjavab.jsx';
 import University from './Components/university.jsx';
 import Unip from './Components/unip.jsx';
+import Masternett from './Components/masternett.jsx';
 
 
 
@@ -33,6 +34,7 @@ class App extends Component {
             <Route path="/backendjavaa" component={BackendJavaa} />
             <Route path="/backendconcep" component={BackendConcep} />
             <Route path="/backendintro" component={BackendIntro} />
+            <Route path="/masternett" component={Masternett} />
             <Route path="/frontend" component={Frontend} />
             <Route path="/portifolio" component={Portifolio} />
             <Route path="/master" component={Master} />
