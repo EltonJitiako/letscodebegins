@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/letscodebegins/static/css/main.1ce10cd8.css",
-    "main.js": "/letscodebegins/static/js/main.a3c65d6f.js",
+    "main.js": "/letscodebegins/static/js/main.7e551e25.js",
     "static/js/787.c3bf25da.chunk.js": "/letscodebegins/static/js/787.c3bf25da.chunk.js",
     "static/media/unip1.png": "/letscodebegins/static/media/unip1.2364495f9642df798287.png",
     "static/media/nikita2.mp4": "/letscodebegins/static/media/nikita2.b73ea5776a605c6ed93d.mp4",
@@ -12,15 +12,16 @@
     "static/media/javab.png": "/letscodebegins/static/media/javab.3f7d2a5611a07ceb0319.png",
     "static/media/spring.png": "/letscodebegins/static/media/spring.1b67536efc975264f91c.png",
     "static/media/git.png": "/letscodebegins/static/media/git.53130889eaf2c6b4119f.png",
+    "static/media/master_nett.jpg": "/letscodebegins/static/media/master_nett.6de67377ae6fbff88913.jpg",
     "static/media/pngwing.com.png": "/letscodebegins/static/media/pngwing.com.7e84b8bbb6baafaddf2e.png",
     "static/media/pngwing.com (1).png": "/letscodebegins/static/media/pngwing.com (1).3f8c9d2153b61a25312e.png",
     "index.html": "/letscodebegins/index.html",
     "main.1ce10cd8.css.map": "/letscodebegins/static/css/main.1ce10cd8.css.map",
-    "main.a3c65d6f.js.map": "/letscodebegins/static/js/main.a3c65d6f.js.map",
+    "main.7e551e25.js.map": "/letscodebegins/static/js/main.7e551e25.js.map",
     "787.c3bf25da.chunk.js.map": "/letscodebegins/static/js/787.c3bf25da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ce10cd8.css",
-    "static/js/main.a3c65d6f.js"
+    "static/js/main.7e551e25.js"
   ]
 }
